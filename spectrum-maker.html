@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Legend Maker</title>
+	<style>
+		body {
+			font-family: "Muli", "Helvetica-Neue";
+		}
+
+		canvas {
+			display: block;
+			margin-bottom: 50px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<script>
+		const spectrum = [
+			"#8ecdd2",
+			"#b5db7f",
+			"#ece788",
+			"#de965d",
+			"#d66b67",
+			"#a55b80"
+		];
+
+		function makeGradient(spectrum) {
+
+			var myCanvas = document.createElement("canvas");
+			myCanvas.width = 300;
+			myCanvas.height = 8;
+
+			var ctx = myCanvas.getContext("2d");
+
+			var grd = ctx.createLinearGradient(0, 0, 300, 10);
+
+			var count = 0;
+
+			for (i = 0; i < spectrum.length; i++) {
+				++count;
+				var stop = count / spectrum.length;
+				console.log("Stop #" + i + " at " + stop + ": " + spectrum[i]);
+				grd.addColorStop(stop, spectrum[i]);
+			}
+
+			// Fill with gradient
+			ctx.fillStyle = grd;
+			ctx.fillRect(0, 0, 300, 10);
+
+			console.log("Total: " + count + " stops");
+			var label = document.createElement("div");
+
+			document.body.appendChild(label);
+			document.body.appendChild(myCanvas);
+		}
+
+		makeGradient(spectrum);
+	</script>
+
+</body>
+
+</html>
