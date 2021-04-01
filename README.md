@@ -4,7 +4,7 @@ Map Tile Spectrums
 #### Spectrums and Legends for Tomorrow.io API ####
 We're big believer in the "dogfooding" approach and use our API for our other product lines. The legends and spectrums are taken directly from the Hypercast platform.
 
-### What's Includes ###
+### What's Included ###
 Our full collection of detailed spectrums (legends) and plain spectrums, including the Spectrum Maker and spectrums scheme - allowing you to generate your own in any resolution needed.
  
 ![Map Tile Spectrums](./samples/precipitation.png)
