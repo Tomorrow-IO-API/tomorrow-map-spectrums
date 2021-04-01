@@ -1,7 +1,7 @@
 Map Tile Spectrums
 ========
 
-#### Spectrums and Legends for ClimaCell API ####
+#### Spectrums and Legends for Tomorrow.io API ####
 We're big believer in the "dogfooding" approach and use our API for our other product lines. The legends and spectrums are taken directly from the Hypercast platform.
 
 ### What's Includes ###
