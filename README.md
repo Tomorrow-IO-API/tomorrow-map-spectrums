@@ -17,7 +17,7 @@ To make your own spectrum PNG:
 1. Right click and save the spectrum PNG
 
 ### Contributors ###
-This project exists thanks to Elad Rahmin (@EladRahmin) and our engineers building [Hypercast](https://www.climacell.co/climacell/), the all-in-one weather dashboard allowing you to get the right information, generate invaluable insights, and drive actions.
+This project exists thanks to Elad Rahmin (@EladRahmin) and our engineers building our [Weather Intelligence Platform](https://www.tomorrow.io/), the all-in-one dashboard allowing you to get the right information, generate invaluable insights, and drive actions.
 
 ### License ###
 Licensed under the [MIT License](./LICENSE) license.
